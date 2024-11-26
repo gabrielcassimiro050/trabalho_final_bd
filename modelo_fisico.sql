@@ -115,7 +115,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mercearia`.`Vendas` (
   `id` INT NOT NULL,
-  `quantidade` VARCHAR(45) NULL,
+  `quantidade` INT NULL,
   `idVendedor` INT NOT NULL,
   `idProduto` INT NOT NULL,
   `Clientes_id` INT NOT NULL,
